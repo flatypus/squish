@@ -24,7 +24,11 @@ def prompt_model(messages) -> str:
     content = response.choices[0].message.content
     usage = response.usage
     print(f"Usage: {usage.prompt_tokens} prompt tokens, {usage.completion_tokens} completion tokens, {usage.total_tokens} total tokens")
-    return content
+    return content, {
+        "prompt_tokens": usage.prompt_tokens,
+        "completion_tokens": usage.completion_tokens,
+        "total_tokens": usage.total_tokens
+    }
 
 
 def prepare_image(image: Image.Image) -> str:
@@ -113,6 +117,8 @@ def process_question(question_text: str, question_idx: int) -> dict:
 
     result = {
         "question": question_text,
+        "n_pages": n_pages_loaded,
+        "total_pages": len(pages),
         "text_prompt": {},
         "image_prompt": {}
     }
@@ -124,12 +130,13 @@ def process_question(question_text: str, question_idx: int) -> dict:
         start_time = time.time()
         text_prompt = {"role": "user", "content": "\n".join(
             text_pages[:n_pages_loaded])}
-        answer = prompt_model([system, text_prompt, question])
+        answer, usage = prompt_model([system, text_prompt, question])
         end_time = time.time()
 
         result["text_prompt"] = {
             "answer": answer,
             "time_seconds": end_time - start_time,
+            "usage": usage
         }
         print(f"Text prompt completed in {end_time - start_time:.2f}s")
     except Exception as e:
@@ -149,13 +156,13 @@ def process_question(question_text: str, question_idx: int) -> dict:
             },
         } for page in pages[:n_pages_loaded]]
         image_prompt = {"role": "user", "content": image_content}
-        answer = prompt_model([system, image_prompt, question])
+        answer, usage = prompt_model([system, image_prompt, question])
         end_time = time.time()
 
         result["image_prompt"] = {
             "answer": answer,
             "time_seconds": end_time - start_time,
-            "n_pages": n_pages_loaded
+            "usage": usage
         }
         print(f"Image prompt completed in {end_time - start_time:.2f}s")
     except Exception as e:

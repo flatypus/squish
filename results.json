@@ -1,66 +1,121 @@
 {
   "model": "gpt-4.1-mini",
   "n_pages_loaded": 5,
-  "total_pages": 23,
+  "total_pages": 24,
   "results": [
     {
       "question": "How does the baron describe the painter in the context of his daughter marrying him?",
+      "n_pages": 5,
+      "total_pages": 24,
       "text_prompt": {
-        "answer": "The baron describes the painter, Carl von Sempach, as a \"beggarly artist\" when objecting to the idea of his daughter Bertha marrying him. He has \"higher views\" for his daughter and is strongly opposed to Carl, even threatening him with various weapons if he ever comes near the castle again. Despite this, the baron has some respect for his daughter's goodness and purity, and later, after a transformative Christmas Eve, he softens his attitude and eventually invites Carl to a family dinner, indicating a complete change of heart.",
-        "time_seconds": 2.038942337036133
+        "answer": "The baron describes the painter, Carl von Sempach, as a \"beggarly artist,\" expressing his disdain and disapproval of the match because Carl is of a much lower social and financial status. He forbids Carl from coming near the premises and threatens him with punishment if he does not stay away, showing that he has \"higher views\" for his daughter than marrying someone he considers poor and unsuitable.",
+        "time_seconds": 1.9838659763336182,
+        "usage": {
+          "prompt_tokens": 14610,
+          "completion_tokens": 83,
+          "total_tokens": 14693
+        }
       },
       "image_prompt": {
-        "answer": "The baron describes the painter as a \"beggarly artist\" in the context of his daughter marrying him. He expresses distress and anger about this situation, stamping, swearing, and threatening Carl with summary punishment if he ventures near the premises again. This indicates the baron's strong disapproval of the marriage and his negative view of the painter's social status and character.",
-        "time_seconds": 5.590139865875244,
-        "n_pages": 5
+        "answer": "In the text, the baron describes the painter as a \"beggarly artist\" when he is disturbed by the thought of his daughter marrying him. The baron\u2019s high views and aristocratic attitude lead him to reject the idea of his daughter marrying the painter, emphasizing his disdain by stamping and swearing at the suggestion, indicating he considers the painter to be of low social and economic status and unsuitable for his daughter.",
+        "time_seconds": 5.917814016342163,
+        "usage": {
+          "prompt_tokens": 8355,
+          "completion_tokens": 85,
+          "total_tokens": 8440
+        }
       }
     },
     {
       "question": "What is Joseph described as wearing when with Madonna?",
+      "n_pages": 5,
+      "total_pages": 24,
       "text_prompt": {
-        "answer": "Joseph is described as wearing the garb of a mountaineer, with a hatchet in his hand.",
-        "time_seconds": 0.9246819019317627
+        "answer": "Joseph is described as wearing \"the garb of a mountaineer, with a hatchet in his hand\" when he accompanied the Madonna.",
+        "time_seconds": 1.4520151615142822,
+        "usage": {
+          "prompt_tokens": 14603,
+          "completion_tokens": 29,
+          "total_tokens": 14632
+        }
       },
       "image_prompt": {
-        "answer": "Joseph is described as wearing the garb of a mountaineer.",
-        "time_seconds": 3.2028353214263916,
-        "n_pages": 5
+        "answer": "Joseph is described as wearing \"the garb of a mountaineer\" when with Madonna.",
+        "time_seconds": 8.174668073654175,
+        "usage": {
+          "prompt_tokens": 8348,
+          "completion_tokens": 19,
+          "total_tokens": 8367
+        }
       }
     },
     {
       "question": "Describe the Baron's provisions",
+      "n_pages": 5,
+      "total_pages": 24,
       "text_prompt": {
-        "answer": "The Baron's provisions notably included sausage made from fat pigs raised on his estate, and wine grown on the estate as well. Despite his relatively modest annual income of a hundred and fifty pounds a year (which would buy a good deal of sausage), these formed the chief sustenance of the Baron and his family. Sausage and wine are mentioned repeatedly as key parts of his consumption and hospitality, such as packing sausage and his peculiar wine in baskets to provide meals for his tenants.",
-        "time_seconds": 1.6978797912597656
+        "answer": "The Baron's provisions included a bullock that was killed and jointed instantly, sausage from his larder, and a good store of his own peculiar wine. These were packed up in baskets and distributed to the poor tenants as part of his Christmas charity.",
+        "time_seconds": 1.5791869163513184,
+        "usage": {
+          "prompt_tokens": 14598,
+          "completion_tokens": 51,
+          "total_tokens": 14649
+        }
       },
       "image_prompt": {
-        "answer": "The Baron's provisions, as described in the text, included a larder stocked with essential supplies such as sausage, a basket packed with various goods, and a good store of his own peculiar wine. Additionally, the larder contained ample provisions like sausages and other foodstuff. Despite this, the Baron feared that his master had gone insane, reflecting some concern about the management or state of these provisions. Overall, the Baron's provisions were sufficient and well-stocked, including good food and wine, to support the household and its functions.",
-        "time_seconds": 6.046372890472412,
-        "n_pages": 5
+        "answer": "The Baron's provisions included a variety of items stocked in his larder and prepared for his needs and the household. Specifically, he had sausage packed up in baskets, with a good store of his own peculiar wine. The provisions also involved the preparation of a bullock to be killed and jointed instantly, with all available provisions ready. Additionally, the baron ensured the availability of drink for his poor tenants, including wine that a poor retainer had declared was good for his health. This overall preparation indicates that the Baron kept a well-stocked supply of meat, wine, and other essentials to support both his household and the dependents on his estate.",
+        "time_seconds": 6.037751197814941,
+        "usage": {
+          "prompt_tokens": 8343,
+          "completion_tokens": 131,
+          "total_tokens": 8474
+        }
       }
     },
     {
       "question": "What did Wilhelm have in his mouth?",
+      "n_pages": 5,
+      "total_pages": 24,
       "text_prompt": {
         "answer": "Wilhelm had about a quarter of a pound of beef in his mouth.",
-        "time_seconds": 0.8634741306304932
+        "time_seconds": 1.0176191329956055,
+        "usage": {
+          "prompt_tokens": 14601,
+          "completion_tokens": 15,
+          "total_tokens": 14616
+        }
       },
       "image_prompt": {
         "answer": "Wilhelm had about a quarter of a pound of beef in his mouth.",
-        "time_seconds": 3.89034104347229,
-        "n_pages": 5
+        "time_seconds": 7.6988019943237305,
+        "usage": {
+          "prompt_tokens": 8346,
+          "completion_tokens": 15,
+          "total_tokens": 8361
+        }
       }
     },
     {
       "question": "I should have liked to have made him a ____; but",
+      "n_pages": 5,
+      "total_pages": 24,
       "text_prompt": {
-        "answer": "The phrase from the text is: \"If this was not a true story, I should have liked to have made him a model of manly beauty; but a regard for veracity compels me to confess that he was not what would be generally considered handsome; that is, not in figure, for his face was by no means unpleasing.\" \n\nSo, the missing word is \"model of manly beauty.\"",
-        "time_seconds": 1.7507760524749756
+        "answer": "The phrase from the text is: \"If this was not a true story, I should have liked to have made him a model of manly beauty; but a regard for veracity compels me to confess that he was not what would be generally considered handsome; that is, not in figure, for his face was by no means unpleasing.\" \n\nSo the missing word is: **model of manly beauty**",
+        "time_seconds": 2.3874619007110596,
+        "usage": {
+          "prompt_tokens": 14605,
+          "completion_tokens": 85,
+          "total_tokens": 14690
+        }
       },
       "image_prompt": {
-        "answer": "The missing word in the sentence \"I should have liked to have made him a ____; but\" is \"model.\" \n\nSo the full sentence reads: \"If this was not a true story, I should have liked to have made him a model of manly beauty; but a regard for veracity compels me to confess that he was not what would be generally considered handsome.\"",
-        "time_seconds": 3.857825994491577,
-        "n_pages": 5
+        "answer": "The passage says: \"If this was not a true story, I should have liked to have made him a model of manly beauty; but a regard for veracity compels me to confess that he was not what would be generally considered handsome;\" \n\nSo, the blank is filled with: **model of manly beauty**",
+        "time_seconds": 5.715126037597656,
+        "usage": {
+          "prompt_tokens": 8350,
+          "completion_tokens": 66,
+          "total_tokens": 8416
+        }
       }
     }
   ]
