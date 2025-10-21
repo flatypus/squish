@@ -7,6 +7,7 @@ inspired by
 - Glyph: Scaling Context Windows via Visual-Text Compression https://arxiv.org/pdf/2510.17800 
 
 Successfully does -50% compression of medium-length haystack tasks (ie. 16k text tokens = 8k image tokens)
+  - further optimizations get me a 70k/10k ratio (-86% ish?) not sure tho
 
 ## todos:
 - why is image slower?
