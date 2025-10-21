@@ -1,0 +1,67 @@
+{
+  "model": "gpt-4.1-mini",
+  "n_pages_loaded": 5,
+  "total_pages": 23,
+  "results": [
+    {
+      "question": "How does the baron describe the painter in the context of his daughter marrying him?",
+      "text_prompt": {
+        "answer": "The baron describes the painter, Carl von Sempach, as a \"beggarly artist\" when objecting to the idea of his daughter Bertha marrying him. He has \"higher views\" for his daughter and is strongly opposed to Carl, even threatening him with various weapons if he ever comes near the castle again. Despite this, the baron has some respect for his daughter's goodness and purity, and later, after a transformative Christmas Eve, he softens his attitude and eventually invites Carl to a family dinner, indicating a complete change of heart.",
+        "time_seconds": 2.038942337036133
+      },
+      "image_prompt": {
+        "answer": "The baron describes the painter as a \"beggarly artist\" in the context of his daughter marrying him. He expresses distress and anger about this situation, stamping, swearing, and threatening Carl with summary punishment if he ventures near the premises again. This indicates the baron's strong disapproval of the marriage and his negative view of the painter's social status and character.",
+        "time_seconds": 5.590139865875244,
+        "n_pages": 5
+      }
+    },
+    {
+      "question": "What is Joseph described as wearing when with Madonna?",
+      "text_prompt": {
+        "answer": "Joseph is described as wearing the garb of a mountaineer, with a hatchet in his hand.",
+        "time_seconds": 0.9246819019317627
+      },
+      "image_prompt": {
+        "answer": "Joseph is described as wearing the garb of a mountaineer.",
+        "time_seconds": 3.2028353214263916,
+        "n_pages": 5
+      }
+    },
+    {
+      "question": "Describe the Baron's provisions",
+      "text_prompt": {
+        "answer": "The Baron's provisions notably included sausage made from fat pigs raised on his estate, and wine grown on the estate as well. Despite his relatively modest annual income of a hundred and fifty pounds a year (which would buy a good deal of sausage), these formed the chief sustenance of the Baron and his family. Sausage and wine are mentioned repeatedly as key parts of his consumption and hospitality, such as packing sausage and his peculiar wine in baskets to provide meals for his tenants.",
+        "time_seconds": 1.6978797912597656
+      },
+      "image_prompt": {
+        "answer": "The Baron's provisions, as described in the text, included a larder stocked with essential supplies such as sausage, a basket packed with various goods, and a good store of his own peculiar wine. Additionally, the larder contained ample provisions like sausages and other foodstuff. Despite this, the Baron feared that his master had gone insane, reflecting some concern about the management or state of these provisions. Overall, the Baron's provisions were sufficient and well-stocked, including good food and wine, to support the household and its functions.",
+        "time_seconds": 6.046372890472412,
+        "n_pages": 5
+      }
+    },
+    {
+      "question": "What did Wilhelm have in his mouth?",
+      "text_prompt": {
+        "answer": "Wilhelm had about a quarter of a pound of beef in his mouth.",
+        "time_seconds": 0.8634741306304932
+      },
+      "image_prompt": {
+        "answer": "Wilhelm had about a quarter of a pound of beef in his mouth.",
+        "time_seconds": 3.89034104347229,
+        "n_pages": 5
+      }
+    },
+    {
+      "question": "I should have liked to have made him a ____; but",
+      "text_prompt": {
+        "answer": "The phrase from the text is: \"If this was not a true story, I should have liked to have made him a model of manly beauty; but a regard for veracity compels me to confess that he was not what would be generally considered handsome; that is, not in figure, for his face was by no means unpleasing.\" \n\nSo, the missing word is \"model of manly beauty.\"",
+        "time_seconds": 1.7507760524749756
+      },
+      "image_prompt": {
+        "answer": "The missing word in the sentence \"I should have liked to have made him a ____; but\" is \"model.\" \n\nSo the full sentence reads: \"If this was not a true story, I should have liked to have made him a model of manly beauty; but a regard for veracity compels me to confess that he was not what would be generally considered handsome.\"",
+        "time_seconds": 3.857825994491577,
+        "n_pages": 5
+      }
+    }
+  ]
+}

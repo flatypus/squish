@@ -1,0 +1,15 @@
+## squish?! 
+
+experimental repository for testing text -> image long-context compression
+
+inspired by 
+- DeepSeek OCR: Contextx https://github.com/deepseek-ai/DeepSeek-OCR/blob/main/DeepSeek_OCR_paper.pdf
+- Glyph: Scaling Context Windows via Visual-Text Compression https://arxiv.org/pdf/2510.17800 
+
+Successfully does -50% compression of medium-length haystack tasks (ie. 16k text tokens = 8k image tokens)
+
+## todos:
+- why is image slower?
+- can you further compress
+- proper textwrap framing
+- run on OSS model not openai
