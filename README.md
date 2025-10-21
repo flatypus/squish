@@ -13,3 +13,5 @@ Successfully does -50% compression of medium-length haystack tasks (ie. 16k text
 - can you further compress
 - proper textwrap framing
 - run on OSS model not openai
+
+<img width="860" height="804" alt="image" src="https://github.com/user-attachments/assets/3c0b551f-cfe5-49eb-a0cc-b6372aef0089" />
